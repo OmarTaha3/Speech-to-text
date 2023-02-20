@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Speech to Text</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="heading">Speech to Text</p>
+      <div class="line"></div>
+      <button class="btn record">
+        <div class="icon">
+          <img src="imgs/bars.svg" alt="" />
+        </div>
+        <p>Start Listening</p>
+      </button>
+      <form>
+        <p class="heading">Result :</p>
+        <textarea
+        class="result"
+        spellcheck="false"
+        placeholder="Text will be shown here" ></textarea>
+        <div class="buttons">
+            <button class="btn clear">
+            <p>Clear</p>
+            </button>
+            <input type="submit" class="btn submit" disabled>
+        </div>
+      </form>
+      
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
